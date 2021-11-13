@@ -59,7 +59,7 @@ INSERT INTO `category` (`id`, `name`) VALUES (NULL, 'inconclusa');
 INSERT INTO `category` (`id`, `name`) VALUES (NULL, 'pendiente');
 INSERT INTO `category` (`id`, `name`) VALUES (NULL, 'demorada');
 INSERT INTO `category` (`id`, `name`) VALUES (NULL, 'borrada');
-INSERT INTO `category` (`id`, `name`) VALUES (NULL, 'resuelta con exito');
+
 
 select * from category c 
 
@@ -72,6 +72,11 @@ select * from category c
  INSERT INTO `notes` (`id`, `user_id`, `tittle`, `create_date`, `update_date`, `description`,`delete_data`)VALUES (NULL, '7', 'Septima nota',  '2021-11-12', '2021-11-12','Crud pagina propia', '0');
  INSERT INTO `notes` (`id`, `user_id`, `tittle`, `create_date`, `update_date`, `description`,`delete_data`)VALUES (NULL, '8', 'Octava nota',  '2021-11-12', '2021-11-12','Curso Full stack', '0');
  INSERT INTO `notes` (`id`, `user_id`, `tittle`, `create_date`, `update_date`, `description`,`delete_data`)VALUES (NULL, '9', 'Novena nota',  '2021-11-12', '2021-11-12','Conseguir trabajo', '1');
-INSERT INTO `notes` (`id`, `user_id`, `tittle`, `create_date`, `update_date`, `description`,`delete_data`)VALUES (NULL, '10', 'Decima nota',  '2021-11-12', '2021-11-12','Actividades JavaScript', '0');
+ INSERT INTO `notes` (`id`, `user_id`, `tittle`, `create_date`, `update_date`, `description`,`delete_data`)VALUES (NULL, '10', 'Decima nota',  '2021-11-12', '2021-11-12','Actividades JavaScript', '0');
 
 select * from notes n 
+
+
+
+
+
