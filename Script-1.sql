@@ -39,7 +39,7 @@ ALTER TABLE `category_note` ADD CONSTRAINT `FK_3e725e1c-c684-4bff-ab9e-a095201c6
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Luana Mingione', 'luanamingione@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Franco Sanchez', 'francocaver@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Jorge Carloto', 'pilotGeorge@gmail.com');
-INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Franco Terragna', 'francoTerr@gmail.com');
+INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Nicolas Ferrua', 'ferruaNico@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Alexis Shady', 'alex_shady@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Antonella Colinas', 'antoc@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Gabriela Bustica', 'gabybusty@gmail.com');
