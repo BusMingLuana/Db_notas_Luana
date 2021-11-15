@@ -39,7 +39,7 @@ ALTER TABLE `category_note` ADD CONSTRAINT `FK_3e725e1c-c684-4bff-ab9e-a095201c6
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Luana Mingione', 'luanamingione@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Franco Sanchez', 'francocaver@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Jorge Carloto', 'pilotGeorge@gmail.com');
-INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Nicolas Ferrua', 'ferruaNico@gmail.com');
+INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Alexia Williams', 'aleWilliams@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Alexis Shady', 'alex_shady@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Antonella Colinas', 'antoc@gmail.com');
 INSERT INTO `users` (`id`, `nombre`, `email`) VALUES (NULL, 'Gabriela Bustica', 'gabybusty@gmail.com');
@@ -77,6 +77,13 @@ select * from category c
 select * from notes n 
 
 
-
-
-
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '1', '1');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '2', '2');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '1', '9');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '4', '4');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '5', '3');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '1', '8');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '3', '10');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '7', '6');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '9', '5');
+INSERT INTO `category_note` (`id`, `category_id`, `notes_id`) VALUES (NULL, '4', '7');
